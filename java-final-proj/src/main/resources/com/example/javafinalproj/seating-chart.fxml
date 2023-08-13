@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafinalproj.ChartController">
+   <children>
+      <HBox alignment="TOP_CENTER" layoutX="50.0" layoutY="115.0" prefHeight="60.0" prefWidth="500.0" style="-fx-background-color: SADDLEBROWN;" />
+      <HBox alignment="TOP_CENTER" layoutX="50.0" layoutY="237.0" prefHeight="60.0" prefWidth="500.0" style="-fx-background-color: SADDLEBROWN;" />
+      <HBox alignment="CENTER" layoutX="50.0" layoutY="351.0" prefHeight="60.0" prefWidth="500.0" style="-fx-background-color: SADDLEBROWN;" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#161616" height="11.0" layoutX="200.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="30.0" layoutX="285.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="30.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#6b6d70" height="60.0" layoutX="245.0" layoutY="40.0" stroke="BLACK" strokeType="INSIDE" width="110.0" />
+      <Rectangle fx:id="rectangle1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="90.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="rectangle2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="264.5" layoutY="175.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="rectangle3" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="439.0" layoutY="175.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Label layoutX="279.0" layoutY="53.0" text="Teacher" textFill="#fdfbfb" />
+      <Rectangle fx:id="rectangle4" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="90.0" layoutY="297.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="rectangle5" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="264.5" layoutY="297.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="rectangle6" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="439.0" layoutY="297.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="rectangle7" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="90.0" layoutY="411.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="rectangle8" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="264.5" layoutY="411.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Rectangle fx:id="rectangle9" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="47.0" layoutX="439.0" layoutY="411.0" stroke="BLACK" strokeType="INSIDE" width="90.0" />
+      <Label layoutX="50.0" layoutY="477.0" prefHeight="29.0" prefWidth="88.0" text="Student Name:" />
+      <Label layoutX="345.0" layoutY="477.0" prefHeight="29.0" prefWidth="42.0" text="Colour:" />
+      <TextField fx:id="studentNameField" layoutX="138.0" layoutY="479.0" />
+      <ComboBox fx:id="dropBox" layoutX="400.0" layoutY="479.0" prefWidth="150.0" promptText="Select Colour" />
+      <Button fx:id="button" alignment="CENTER" contentDisplay="CENTER" layoutX="257.0" layoutY="511.0" mnemonicParsing="false" onAction="#addStudent" prefHeight="25.0" prefWidth="88.0" style="-fx-background-color: red;" text="Add Student" textFill="WHITE" />
+      <Label fx:id="errorMsg1" layoutX="50.0" layoutY="562.0" prefHeight="25.0" prefWidth="500.0" textAlignment="CENTER" textFill="RED" />
+      <Label fx:id="box1" layoutX="95.0" layoutY="190.0" />
+      <Label id="box2" fx:id="box2" layoutX="268.0" layoutY="190.0" />
+      <Label id="box3" fx:id="box3" layoutX="444.0" layoutY="190.0" />
+      <Label id="box4" fx:id="box4" layoutX="95.0" layoutY="312.0" />
+      <Label id="box5" fx:id="box5" layoutX="268.0" layoutY="312.0" />
+      <Label id="box6" fx:id="box6" layoutX="444.0" layoutY="312.0" />
+      <Label id="box7" fx:id="box7" layoutX="95.0" layoutY="426.0" />
+      <Label id="box8" fx:id="box8" layoutX="268.0" layoutY="426.0" />
+      <Label id="box9" fx:id="box9" layoutX="444.0" layoutY="426.0" />
+      <Label id="error-sad" fx:id="errorMsg2" layoutX="302.0" layoutY="70.0" prefHeight="17.0" prefWidth="0.0" textFill="#fdfdfd" />
+      <Label fx:id="welcome" layoutX="200.0" layoutY="-4.0" prefHeight="17.0" prefWidth="200.0" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</AnchorPane>
